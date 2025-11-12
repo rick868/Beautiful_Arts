@@ -89,6 +89,101 @@
 
 
     </section>
+
+    <!-- gallery section -->
+    <section id="gallery" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold text-primary">Art Gallery</h2>
+                <h3 class="display-6 text-secondary">Explore Our Collection</h3>
+                <p class="lead fs-4 text-muted">Discover a curated selection of beautiful art pieces from various eras. Each piece tells a unique story and invites you to support the arts.</p>
+            </div>
+            <div id="artCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/assets/images/Cómo visitar el Vaticano - Guía para ver lo imprescindible.jpeg" class="d-block w-100" alt="Art Piece 1">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+                            <h5 class="fw-bold">Masterpiece of the Renaissance</h5>
+                            <p class="fw-semibold">Oil on Canvas</p>
+                            <p>This exquisite painting captures the essence of human emotion through vibrant colors and intricate details.</p>
+                            <a href="#sponsorship" class="btn btn-warning">Sponsor This Art</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/expressionism.jpeg" class="d-block w-100" alt="Art Piece 2">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+                            <h5 class="fw-bold">Abstract Expressionism</h5>
+                            <p class="fw-semibold">Acrylic on Paper</p>
+                            <p>A bold exploration of form and color, challenging traditional boundaries in modern art.</p>
+                            <a href="#sponsorship" class="btn btn-warning">Sponsor This Art</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/Tranquil Meditation by the Water Embrace Inner Peace and Spirituality.jpeg" class="d-block w-100" alt="Art Piece 3">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+                            <h5 class="fw-bold">Sculpture of Serenity</h5>
+                            <p class="fw-semibold">Bronze Statue</p>
+                            <p>This serene sculpture embodies peace and tranquility, crafted with meticulous attention to detail.</p>
+                            <a href="#sponsorship" class="btn btn-warning">Sponsor This Art</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/The Future of African Culture Collection _ Digital Download.jpeg" class="d-block w-100" alt="Art Piece 4">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+                            <h5 class="fw-bold">Digital Art Fusion</h5>
+                            <p class="fw-semibold">Digital Print</p>
+                            <p>A fusion of traditional techniques and modern technology, creating a bridge between past and future.</p>
+                            <a href="#sponsorship" class="btn btn-warning">Sponsor This Art</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#artCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#artCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact-us section -->
+    <section id="contact-us" class="py-5 bg-secondary">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold text-light">Contact Us</h2>
+                <h3 class="display-6 text-warning">Get In Touch</h3>
+                <p class="lead fs-4 text-light">We'd love to hear from you. Reach out with any questions or inquiries about our gallery.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label text-light fw-semibold">Name</label>
+                            <input type="text" class="form-control rounded-5" id="name" placeholder="Full Names" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label text-light fw-semibold">Phone Number</label>
+                            <input type="tel" class="form-control rounded-5" id="phone" placeholder="Phone Number(+1,+254....)" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-light fw-semibold">Email</label>
+                            <input type="email" class="form-control rounded-5" id="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label text-light fw-semibold">Message</label>
+                            <textarea class="form-control rounded-5" id="message" rows="4" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-warning btn-lg rounded-5 px-5">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
